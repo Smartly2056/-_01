@@ -33,6 +33,16 @@ h2 {
   text-align: center;
 }
 
+#store {
+  font-family:monospace;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+p {
+  text-align: center;
+}
+
 input {
   display: block;
   margin-bottom: 10px;
@@ -95,3 +105,42 @@ input {
   width: 150px;
   height: 100px;
 }
+
+
+/* header */
+#header {
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+#header li {
+  list-style: none;
+  background-color: #f9f9f9;
+  margin: 10px auto;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+#header h1 a {
+  text-decoration: none;
+  color: #000
+}
+
+#header li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+#header li :hover {
+  opacity: .7;
+}
+
+#header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
